@@ -9,6 +9,8 @@ public class VoidEvent implements Listener {
 
     @EventHandler
     public void moveEvent(PlayerMoveEvent e) {
-        if (e.getPlayer().getLocation().getY() <= 1) e.getPlayer().setHealth(0);
+        if (e.getPlayer().getLocation().getY() >= -2) {
+            e.getPlayer().setHealth(0);
+        }
     }
 }
