@@ -1,0 +1,5 @@
+name: zVoid
+version: 1.0
+author: veltus5184
+main: net.zorapvp.zvoid.VoidPlugin
+description: Void plugin for ZoraPvP
